@@ -36,11 +36,11 @@ This web scraper extracts data from web pages and stores it in CSV files. The pr
    npm run dev
    ```
 
-6. Access the webpage in your browser and click the button to initiate the scraping process.
+6. Access the webpage in your browser, enter your query and click the button to initiate the scraping process.
 
 ## Data Storage
 
 The scraped data is stored in the following CSV files:
 
-- `articles.csv`: Contains information about the scraped articles.
-- `citations.csv`: Contains data about the citations.
+- `articles.csv`: Contains information about the titles of scraped papers.
+- `citations.csv`: Contains the citations (some results are citations and not papers.
